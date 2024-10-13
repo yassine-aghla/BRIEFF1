@@ -58,12 +58,13 @@
  
 <body>
  <!--header-top start -->
-<header id="header-top" class="header-top">
+<header id="header-top" class="header-top" role="banner">
     <ul>
         <li>
             <div class="header-top-left">
                 <ul>
                     <li class="select-opt">
+                        <label for="language">language</label>
                         <select name="language" id="language">
                             <option value="default">EN</option>
                             <option value="French">FR</option>
@@ -71,6 +72,7 @@
                         </select>
                     </li>
                     <li class="select-opt">
+                        <label for="currency">currency</label>
                         <select name="currency" id="currency">
                             <option value="usd">USD</option>
                             <option value="euro">Euro</option>
@@ -78,7 +80,7 @@
                         </select>
                     </li>
                     <li class="select-opt">
-                        <a href="#"><span class="lnr lnr-magnifier"></span></a>
+                        <a href="#" aria-label="label"><span class="lnr lnr-magnifier"></span></a>
                     </li>
                 </ul>
             </div>
@@ -90,10 +92,10 @@
                         +212 222 777 6565
                     </li>
                     <li class="header-top-contact">
-                        <a href="#">sign in</a>
+                        <a href="#" aria-label="sign in">sign in</a>
                     </li>
                     <li class="header-top-contact">
-                        <a href="#">register</a>
+                        <a href="#" aria-label="register">register</a>
                     </li>
                 </ul>
             </div>
@@ -153,7 +155,7 @@
                         <div class="single-explore-img">
                             <img src="assets/images/explore/e1.jpg" alt="explore image">
                             <div class="single-explore-img-info">
-                                <button onclick="window.location.href='#'">best rated</button>
+                                <button aria-label="button" onclick="window.location.href='#'">best rated</button>
                                 <div class="single-explore-image-icon-box">
                                     <ul>
                                         <li>
@@ -266,11 +268,11 @@
                             <div class="explore-open-close-part">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                        <button aria-label="button" class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">
-                                            <a aria-label="label" href="#" aria-label="label"><i data-feather="map-pin"></i></a>
+                                            <a href="#" aria-label="label"><i data-feather="map-pin"></i></a>
                                             <a  href="#" aria-label="label"><i data-feather="upload"></i></a>
                                             <a  href="#" aria-label="label"><i data-feather="heart"></i></a>
                                         </div>
@@ -332,7 +334,7 @@
                             <div class="explore-open-close-part">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <button class="close-btn" onclick="window.location.href='#'">close now</button>
+                                        <button aria-label="label" class="close-btn" onclick="window.location.href='#'">close now</button>
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">
@@ -398,7 +400,7 @@
                             <div class="explore-open-close-part">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <button class="close-btn" onclick="window.location.href='#'">close now</button>
+                                        <button aria-label="button" class="close-btn" onclick="window.location.href='#'">close now</button>
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">
@@ -449,7 +451,7 @@
                                 <div class="row">
                                     <div class="col-sm-2">
                                         <div class="explore-person-img">
-                                            <a aria-label="label" href="#">
+                                            <a  href="#" aria-label="label" >
                                                 <img src="assets/images/explore/person.png" alt="explore person">
                                             </a>
                                         </div>
@@ -464,7 +466,7 @@
                             <div class="explore-open-close-part">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                        <button aria-label="button" class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">
@@ -483,7 +485,7 @@
                         <div class="single-explore-img">
                             <img src="assets/images/explore/e6.jpg" alt="explore image">
                             <div class="single-explore-img-info">
-                                <button onclick="window.location.href='#'">best rated</button>
+                                <button aria-label="button" onclick="window.location.href='#'">best rated</button>
                                 <div class="single-explore-image-icon-box">
                                     <ul>
                                         <li>
@@ -530,7 +532,7 @@
                             <div class="explore-open-close-part">
                                 <div class="row">
                                     <div class="col-sm-5">
-                                        <button class="close-btn" onclick="window.location.href='#'">close now</button>
+                                        <button aria-label="button" class="close-btn" onclick="window.location.href='#'">close now</button>
                                     </div>
                                     <div class="col-sm-7">
                                         <div class="explore-map-icon">

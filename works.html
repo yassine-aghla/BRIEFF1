@@ -64,6 +64,7 @@
             <div class="header-top-left">
                 <ul>
                     <li class="select-opt">
+                        <label for="language">language</label>
                         <select name="language" id="language">
                             <option value="default">EN</option>
                             <option value="French">FR</option>
@@ -71,6 +72,7 @@
                         </select>
                     </li>
                     <li class="select-opt">
+                        <label for="currency">currency</label>
                         <select name="currency" id="currency">
                             <option value="usd">USD</option>
                             <option value="euro">Euro</option>
@@ -115,7 +117,7 @@
                     <button aria-label="label" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">listo<span>go</span></a>
+                    <a class="navbar-brand" href="index.html" aria-label="listgo">listo<span>go</span></a>
 
                 </div><!--/.navbar-header-->
                 <!-- End Header Navigation -->
@@ -123,12 +125,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class=" action "><a href="index.html">home</a></li>
-                        <li class=" active"><a href="./works.html">how it works</a></li>
-                        <li class="action "><a href="./explore.html">explore</a></li>
-                        <li class="action"><a href="./review.html">review</a></li>
-                        <li class="action"><a href="./blog.html">blog</a></li>
-                        <li class="action"><a href="./contact.html">contact</a></li>
+                        <li class=" action "><a href="index.html" aria-label="index">home</a></li>
+                        <li class=" active"><a href="./works.html" aria-label="works">how it works</a></li>
+                        <li class="action "><a href="./explore.html" aria-label="explore">explore</a></li>
+                        <li class="action"><a href="./review.html" aria-label="review">review</a></li>
+                        <li class="action"><a href="./blog.html" aria-label="blog">blog</a></li>
+                        <li class="action"><a href="./contact.html" aria-label="contact">contact</a></li>
                     </ul><!--/.nav -->
                 </div><!-- /.navbar-collapse -->
             </div><!--/.container-->
@@ -222,7 +224,7 @@
 					<div class="row">
 						<div class="col-sm-5">
 							<p>
-								&copy;copyright. designed and developed by <a href="#">ListoGo</a>
+								&copy;copyright. designed and developed by <a href="#" aria-label="listo">ListoGo</a>
 							</p><!--/p-->
 						</div>
 						<div class="col-sm-7">

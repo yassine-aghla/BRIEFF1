@@ -4,7 +4,7 @@
 ## Overview
 ------------
 
-* Briefly describe the project and its purpose
+
 
 ## Features
 ------------
